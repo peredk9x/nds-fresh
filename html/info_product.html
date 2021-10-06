@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/index.css" rel="stylesheet" type="text/css">
+    <link href="../css/product.css" rel="stylesheet" type="text/css">
+    <!--Font chu Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <!---------------------->
+    <!---Font-awsome cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!---------------------->
+    <!---- Owlcarousel-->
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+
+    <!---->
+    <!-- ----------Reponsive------------ -->
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Document</title>
+    <style>
+      
+  
+       .section_list{
+        width:100%;
+       }
+       .section_list-deal{
+           margin:2% 0%;
+       }
+       .owl-carousel .owl-item img{
+        width: 82%;
+       }
+    </style>
+</head>
+<body>
+     <div class="notifi">
+        <div class="icon_done">
+            <i class="fa fa-check"></i>
+        </div>
+        <div class="text_notifi">
+            <p>Sản phẩm đã được thêm vào giỏ hàng</p>
+        </div>
+    </div>
+    <div class="cart">
+        <div class="bgr-cart">
+                                    
+        </div>
+        <div class="list_cart ">
+                <div class="list_cart--title">
+                    <h3>Giỏ hàng</h3>
+                    <i class="fa fa-times btn_close"></i>
+                </div>
+                <div class="list_add">
+                    
+                    
+                </div>
+                <div class="list_total-pay">
+                    <div class="total_pay">
+                    <h3>Tổng tiền:</h3><span>0đ</span></div>
+                    <button>Thanh toán</button>
+                </div>
+        </div> 
+    </div>
+    
+    <header>
+        <nav class='border'>
+            <div class="middle_nav">
+                <div class="middle-nav">
+                    <div class="listmenu nav_menu--left">
+                        <div class="close"><i class="fa fa-times" onclick="tabmenu()"></i></div>
+
+                        <ul class="listmenu_left">
+                            <li class="list_item"><a href="../index.html" class="link_item--menu focus"> Trang chủ</a></li>
+                            <li class="list_item"><a href="" class="link_item--menu">Giới thiệu</a></li>
+                            <li class="list_item menu_c2"><a href="product_all.html" class="link_item--menu">Sản phẩm</a>
+                                <ul class="menu-c2">
+                                    <li class="list_item--c2"><a href="">Trái cây</a></li>
+                                    <li class="list_item--c2"><a href="">Thịt tươi</a></li>
+                                    <li class="list_item--c2"><a href="">Rau củ quả</a></li>
+                                    <li class="list_item--c2"><a href="">Đồ uống</a></li>
+                                    <li class="list_item--c2"><a href="">Hải sản tươi</a></li>
+                                    <li class="list_item--c2"><a href="">Sản phẩm bán chạy</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="list_item"><a href="" class="link_item--menu">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn_menu">
+                        <i class="fa fa-align-left icon_click" onclick="tabmenu()"></i>
+                    </div>
+                    <div class="nav_logo--center">
+                        <img src="https://bizweb.dktcdn.net/100/431/449/themes/833232/assets/logo.png?1630145421439" width="220px">
+                    </div>
+                    <div class="nav_menu--right">
+                        <div class="menu_right--search">
+                            <input type="search" placeholder="Bạn cần tìm gì?">
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                        <div class="menu_right--like--cart">
+                            <div class="menu_right--like">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <div class="menu_right--cart">
+                                <i class="fa fa-shopping-bag"></i>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </nav>
+        <div class="header_image">
+            <div class="title_header">
+            </div>
+        </div>                                                                                                                                                              
+
+    </header>
+    
+    <section>
+        <div class="section_all">
+            <div class="row_image-inf-product">
+                <div class="image_product">
+                    <div class="list_image_product ">
+                        <!-- <button><i class="fa fa-angle-up"></i></button> -->
+                        
+                        <!-- <button><i class="fa fa-angle-down"></i></button> -->
+                    </div>
+                    <div class="list_image_show">
+                       
+                    </div>
+                </div>
+                <div class="info_product">
+                    <div class="name_and_status">
+                        
+                    </div>
+                    <div class="cost_info">
+                      
+                    </div>
+                    <div class="detail_info">
+                    </div>
+                    <div class="choose_kg">
+                        <h4>Trọng lượng</h4>
+                        <div class="btn_choose">
+                            <div class="1kg-btn checked">
+                                <span class="number_btn">1</span>kg
+                            </div>
+                            <div class="2kg-btn">
+                                <span class="number_btn">2</span>kg
+                            </div>
+                            <div class="3kg-btn">
+                                <span class="number_btn">3</span>kg
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose_quantity">
+                        <h4>Số lượng:</h4>
+                        <div class="input_value">
+                            <span><button onclick=minusValue()><i class="fa fa-minus minus"></i></button></span><input type="text" onkeyup="inputVl()" maxlength="3" min="0" class="number_product" value="1"><span><button onclick=sumValue()><i class="fa fa-plus sum"></i></button></span>
+                        </div>
+                    </div>
+                    <div class="buy_and_add-cart">
+                        <div class="buy_now">
+                            <button class="btn_buy" >
+                                  Mua ngay
+                            </button>
+                        </div>
+                        <div class="add_cart">
+                            <button class="btn_add-cart">Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="commit_shop">
+                    <div class="col-1 cols">
+                        <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_1.png?1631178510656">
+                        <p>100% tự nhiên</p>
+                    </div>
+                    <div class="col-2 cols">
+                        <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_2.png?1631178510656">
+                        <p>Chứng nhận ATTP</p>
+                    </div>
+                    <div class="col-3 cols">
+                        <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_3.png?1631178510656">
+                        <p>Luôn luôn tươi mới</p>
+                    </div>
+                    <div class="col-4 cols">
+                        <img src="https://bizweb.dktcdn.net/100/431/449/themes/834425/assets/service_4.png?1631178510656">
+                        <p>An toàn cho sức khỏe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-detail">
+                <div class="list_choose_info">
+                    <div class="row-1 row row-active">
+                        <p>Thông tin sản phẩm</p>
+                    </div>
+                    <div class="row-2 row">
+                        <p>Chính sách đổi trả</p>
+                    </div>
+                    <div class="row-3 row">
+                        <p>Hướng dẫn bảo quản</p>
+                    </div>
+
+                </div>
+                <div class="detail_show">
+                    <div class="row-1 detail detail-active">
+                        
+                    </div>
+                    <div class="row-2 detail">
+                        <p><b>Tầm nhìn:</b> Được nuôi trồng, chế biến theo phương Bio (sinh học), Organic (hữu cơ), Eco (sinh thái); cam kết không bán hàng giả, hàng nhái và hàng kém chất lượng. Sản phẩm được giao đến tay khách hàng luôn đúng cam kết, đúng chất lượng niệm yết, luôn được bảo quản trong môi trường lý tưởng, đảm bảo vệ sinh an toàn thực phẩm.</p>
+                    </div>
+                    <div class="row-3 detail">
+                        <p><b>Tầm nhìn:</b> Được nuôi trồng, chế biến theo phương Bio (sinh học), Organic (hữu cơ), Eco (sinh thái); cam kết không bán hàng giả, hàng nhái và hàng kém chất lượng. Sản phẩm được giao đến tay khách hàng luôn đúng cam kết, đúng chất lượng niệm yết, luôn được bảo quản trong môi trường lý tưởng, đảm bảo vệ sinh an toàn thực phẩm.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-relate">
+                <div class="home-title">
+                    <h2>Sản phẩm liên quan</h2>
+                </div>
+                
+            </div>
+            <div class="section_list">
+                <div class="list_products ">
+                    <div class="section_list-deal product_list concem owl-carousel owl-theme">
+                        
+                        <!-- -------------------------------- -->
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer >
+        <div class="border turn-180"></div>
+       <div class="footer_all">
+           
+           <div class="logo--center">
+               <img src="https://bizweb.dktcdn.net/100/431/449/themes/833232/assets/logo_footer.png?1630489002779" width="220px">
+               <p>Website thương mại điện tử ND Fresh do ND Group là đơn vị chủ quản, chịu trách nhiệm và thực hiện các giao dịch liên quan mua sắm sản phẩm hàng hoá tiêu dùng thiết yếu.</p>
+           </div>
+           <div class="footer-img">
+               <img src="https://bizweb.dktcdn.net/100/431/449/themes/833232/assets/img-footer.png?1630489002779">
+           </div>
+       </div>
+   </footer>
+   <div class="scroll-top">
+    <i class="fa fa-chevron-up"></i>
+    </div>
+   <script src="../js/render.js"> </script>
+    <script src="../js/event.js"></script>
+    <script src="../js/eventproduct.js"></script>
+    <script src="../OwlCarousel2-2.3.4/jquery-3.6.0.min.js"></script>
+    <script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js">
+
+</script>
+
+    <script>
+        $('.concem').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:2
+            },
+            680:{
+                items:3
+            },
+            720:{
+                items:4
+            },
+            976:{
+                items:5
+            },
+            1066:{
+                items:6
+            }
+        },
+        merge:true,
+        dots:false,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true
+
+}) 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+$('.product-sale').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        680:{
+            items:2
+        },
+        720:{
+            items:3
+        },
+        976:{
+            items:4
+        },
+        1066:{
+            items:5
+        }
+    },
+    merge:true,
+    dots:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true
+
+}) 
+
+$('.product-section').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        720:{
+            items:2
+        },
+        976:{
+            items:3
+        },
+        1066:{
+            items:4
+        }
+    },
+    merge:true,
+    dots:false,
+    info:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true
+
+}) 
+
+$('.list_cate').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        720:{
+            items:4
+        },
+        976:{
+            items:5
+        },
+        1066:{
+            items:6
+        }
+    },
+    merge:true,
+    dots:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true
+});

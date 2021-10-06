@@ -1,0 +1,534 @@
+@media only screen and (min-width:61em) and (max-width:66.625em){
+    /*------Nav--------*/
+    header nav .middle_nav .middle-nav{
+        margin:0% 1% !important;
+    }
+    .nav_menu--left{
+        margin-right:0 !important;
+       
+    }
+    .nav_menu--right{
+    margin-left: 0 !important;}
+    .nav_menu--left .listmenu_left li{
+        margin: 1%;
+    }
+    .section_all{
+        margin:3% 1% !important;
+    }
+    .menu_product{
+        margin:1% 0%;
+        background-size: 116% !important;
+        background-repeat:no-repeat !important;
+    }
+    .menu_fruits .menu_content_fruits{
+        padding:15% 8%;
+    }
+    .product_list{
+        margin: 1% 0% !important;
+    }
+    .menu_content_fruits ul{
+        margin:9% 0%;
+    }
+    .menu_fruits .menu_content_fruits button{
+        padding:7% !important;
+    }
+    .section_banner .banner_picture{
+        height:208px !important;
+    }
+    .section_banner--bottom .section_picture{
+        background-size: contain !important;
+  
+        height: 154px !important;
+        background-repeat: no-repeat;
+    }
+    .section_banner--bottom .section_picture h1{
+        font-size: 24px !important;
+        line-height: 154px !important;
+    }
+    /* Info_product */
+    .row_image-inf-product .image_product{
+        width:39%;
+    }
+    .buy_and_add-cart div button{
+        font-size:13px;
+    }
+    .info_product .choose_kg .btn_choose div{
+        width: 13%;
+    }
+    .choose_quantity .input_value{
+        width:25%;
+    }
+    .section_list{
+        width:100%;
+    }
+    
+    header .header_image ul{
+        width:20%
+    }
+    .commit_shop{
+        height:100%;
+        width:22%;
+    }
+    section{
+        margin:0% 1%;
+    }
+    /*Productall*/
+    .section_list_menu{
+        width: 24%;
+    margin: 0 auto;
+    }
+    .section_list_menu .aside_top .banner_aside, .section_list_menu .aside_bottom .banner_aside{
+        font-size:15px
+    }
+    .list_menu ul{
+    padding: 2% 7%;
+    font-size:14px
+    }
+    .section_list_product{
+        width:72% !important;
+    }
+    .section_list_product .product_list{
+        width:32% !important;
+    }
+    .product-info .cost span{
+        font-size:20px;
+    }
+    .pagination ul{
+        width: 27%;
+        margin: 2% auto;
+    }
+    
+}
+@media only screen and (min-width:45em) and (max-width:60.9375em){
+   .listmenu .nav_menu--left{
+       display:none !important;
+   }
+    .btn_menu{
+        display: block !important;
+    font-size: 22px;    
+    width: 69%;
+    }
+    
+    .listmenu{
+        position: absolute;
+        bottom: 0;
+        background-color: #3ba66b;
+        top: 0;
+        left:-500px;
+        transition:all 0.5s ease;
+        z-index: 999;
+    }
+    .nav_menu--left .listmenu_left{
+        flex-direction: column;
+        color: white;
+        font-size: 18px;
+    }
+    .nav_menu--left .listmenu_left li{
+        padding: 2%;
+        border-bottom:1px solid white !important;
+       
+        margin: 10% 0%;
+    }
+  
+    .nav_menu--left .listmenu_left .list_item:nth-child(3):hover .menu-c2{
+        height:500px !important;
+    }
+    .nav_menu--left .listmenu_left .list_item:nth-child(3):hover .menu-c2 li a{
+        color:#ffb416;
+    }
+    .menu_c2 .menu-c2{
+        width:100% !important;
+        background-color: #3ba66b !important;
+        position:relative !important;
+    }
+    .menu_c2 .menu-c2 li a{
+        
+    color: WHITE !important;
+        border-bottom: none !important;
+    }
+    .close{
+        color: white;
+        right: 0;
+        margin-right: 0;
+        margin-top: 5%;
+        width: 10%;
+        display:block !important;
+        font-size: 22px;
+        cursor:pointer;
+    }
+    .show{
+        visibility: visible !important;;
+        left:0 !important;
+        transition:all 0.5s ease;
+
+    }
+    .nav_menu--right input,.nav_menu--right button,.nav_menu--left{
+       visibility: hidden;
+    }
+    .menu_right--cart{
+        margin-left: 15% !important;
+    }
+    .cate_item{
+        margin:0 auto !important;
+        width: 76% !important;
+    }
+    .section_banner .banner_picture{
+       height: 150px !important;
+    }
+    .product_fruits{
+        flex-direction:column !important;
+    }
+    .section_product .product_vegetable .menu_product,
+    .section_product .product_meat .menu_product,
+    .section_product .product_fruits .menu_fruits{
+        width:100% !important;
+        background-size:cover !important;
+        height:99px;
+        overflow: hidden;
+        background-repeat:no-repeat !important;
+        border-radius: 25px;
+        margin-bottom: 5%;
+        transition: height 0.3s ease;
+    }
+    
+    .menu_fruits .menu_content_fruits{
+        padding: 1% 8% !important;
+    }
+    .menu_fruits .menu_content_fruits h2, .menu_fruits .menu_content_fruits ul li{
+        margin: 4% 0% !important;
+    }
+    .section_banner--bottom .section_picture{
+        background-size: 215% !important;
+    background-position: center ;
+    }
+    .title-menu i:hover{
+        cursor:pointer;
+    }
+    .height{
+        height: 440px !important;
+    }
+    /* Info_product */
+    .section_all{
+        margin:3% 2%;
+    }
+    .row_image-inf-product{
+        flex-wrap:wrap;
+    }
+    .row_image-inf-product .image_product{
+        width:52%
+    }
+    .info_product{
+        width:48%;
+    }
+    .info_product .choose_kg .btn_choose div{
+        width:13%;
+    }
+    .choose_quantity .input_value{
+        width:24%;
+    }
+    .buy_and_add-cart div button{
+        font-size:14px;
+    }
+    .commit_shop{
+        width: 100%;
+        display: flex;
+    }
+    .commit_shop .cols{
+        margin:5% auto;
+    }
+    
+    header .header_image ul{
+        width:28%
+    }
+    .section_list_product{
+        width:97%
+    }
+    /*Producy all*/
+    .section_list_menu{
+        position: fixed;
+        width: 35%;
+        z-index: 999;
+        height: 100%;
+        margin: 0;
+        background-color: #3ba66b;
+        top: 0;
+        left: -800px;
+        transition: all 0.5s ease;
+    }
+    .section_list_product .product_list{
+        width:32% !important;
+    }
+    .pagination ul{
+        width: 25%;
+        margin: 3% auto;
+    }
+
+    .filter{
+        background-color: #3ba66b;
+        width: 5%;
+        border-radius: 50%;
+        position: fixed;
+        display:block;
+        z-index: 15;
+        left: 0;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        top: 43%;
+        transition: all 0.8s ease;
+    }
+    .actived{
+        left:0;
+        transition:all 0.5s ease;
+    }
+    .op{
+        left: 33%;
+        transition: all 0.8s ease;
+
+    }
+}
+@media only screen and (max-width: 44.9375em){
+    .listmenu .nav_menu--left{
+        display:none !important;
+    }
+     .btn_menu{
+         display: block !important;
+     font-size: 22px;    
+     width: 69%;
+     }
+     .border::after{
+        height: 30px !important;
+     }
+     .nav_logo--center{
+         margin-top:5%;
+     }
+     .nav_logo--center img,.logo--center img,.footer-img img    {
+         width:150px !important;
+     }
+     .listmenu{
+         position: absolute;
+         bottom: 0;
+         background-color: #3ba66b;
+         top: 0;
+         left:-500px;
+         transition:all 0.5s ease;
+         z-index: 999;
+     }
+     .close{
+        color: white;
+        right: 0;
+        margin-right: 0;
+        margin-top: 5%;
+        width: 10%;
+        display:block !important;
+        font-size: 22px;
+    }
+     
+     .nav_menu--left .listmenu_left{
+         flex-direction: column;
+        
+         color: white;
+         font-size: 18px;
+     }
+     .nav_menu--left .listmenu_left li{
+         padding: 2%;
+         border-bottom:1px solid white !important;
+        
+         margin: 10% 0%;
+     }
+   
+     .nav_menu--left .listmenu_left .list_item:nth-child(3):hover .menu-c2{
+         height:400px !important;
+     }
+     .nav_menu--left .listmenu_left .list_item:nth-child(3):hover .menu-c2 li a{
+         color:#ffb416;
+     }
+     .menu_c2 .menu-c2{
+         width:100% !important;
+         background-color: #3ba66b !important;
+         position:relative !important;
+     }
+     .menu_c2 .menu-c2 li a{
+         
+     color: WHITE !important;
+         border-bottom: none !important;
+     }
+     .show{
+         visibility: visible !important;;
+         left:0 !important;
+         transition:all 0.5s ;
+     }
+     .nav_menu--right input,.nav_menu--right button,.nav_menu--left{
+         visibility: hidden;
+     }
+     .menu_right--cart{
+         margin-left: 15% !important;
+     }
+     .cate_item{
+         margin:0 auto !important;
+         width: 76% !important;
+     }
+     .section_product .product_vegetable .menu_product,
+    .section_product .product_meat .menu_product,
+    .section_product .product_fruits .menu_fruits{
+        width:100% !important;
+        background-size:cover !important;
+        height:60px;
+        overflow: hidden;
+        background-repeat:no-repeat !important;
+        border-radius: 25px;
+        margin-bottom: 5%;
+        transition:height 0.5s ease;
+    }
+    .section_banner--bottom .section_picture{
+        background-size: 215% !important;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height:100%;
+    }
+     .menu_fruits .menu_content_fruits{
+        padding: 1% 8% !important;
+    }
+    .menu_fruits .menu_content_fruits h2, .menu_fruits .menu_content_fruits ul li{
+        margin: 4% 0% !important;
+    }
+    .section_banner .banner_picture{
+        height: 150px !important;
+     }
+     .product_fruits{
+         flex-direction:column !important;
+     }
+     .section_list_deal .section_deal .text-deal {
+        top:-7% !important;
+        font-size:13px !important;
+    }
+    .nav_menu--left{
+        width:60% !important;
+    }
+    .section_banner--bottom .section_picture h1{
+        font-size:18px !important;
+    }
+    footer .footer_all .logo--center p {
+        width:50% !important;
+        font-size:14px;
+    }
+    .section_banner{
+        flex-direction:column;
+    }
+    .section_banner .banner_picture:nth-child(1){
+        margin: 2% 0% !important;
+    }
+    .height{
+        height: 265px !important;
+    }
+    .product-info{
+        bottom: 0 !important;;
+    }
+    .section_banner .banner_picture:nth-child(2){
+        margin-left:0 !important;
+    }
+    /* Info_product */
+    
+    header .header_image ul{
+        width:50%;
+    }
+    .row_image-inf-product{
+        flex-direction:column;
+        position:relative;
+    }
+    .row_image-inf-product .image_product .list_image_product{
+        flex-direction: row;
+    }
+    .row_image-inf-product .image_product{
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+            padding-top: 37%;
+    }
+    .info_product{
+        width:100%
+    }
+    .name_and_status{
+        top: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .cost_info{
+        position: absolute;
+    top: 4%;
+    width: 100%;
+    padding: 4% 0%;
+    border-bottom: 1px solid green;
+    }
+    .info_product .choose_kg .btn_choose div{
+        width:13%;
+    }
+    .choose_quantity .input_value{
+        width:24%;
+    }
+    .commit_shop{
+        width:100%;
+        display:flex
+    }
+    .commit_shop .cols{
+        margin:5% auto;
+    }
+    .info-detail .list_choose_info .row{
+        text-align:center
+    }
+    .section_list_product {
+        width:100%
+    }
+    .section_list_product .product_list .item_product{
+        height:242px !important;
+    }
+    /*Producy all*/
+    .section_list_menu{
+        position: fixed;
+        width: 61%;
+        z-index: 999;
+        margin: 0;
+        background-color:#3ba66b;
+        top: 0;
+        height:100%;
+        left: -800px;
+        transition: all 0.5s ease;
+    }
+    .section_list_product .product_list{
+        width:49% !important;
+    }
+    .pagination ul{
+        width: 50%;
+    margin: 10% auto;
+    }
+    .filter{
+        background-color: #3ba66b;
+        width: 10%;
+        display:block;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 15;
+        left:0;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        top: 38%;
+        transition: all 0.8s ease;
+    }
+    .actived{
+        left:0;
+        transition:all 0.5s ease;
+    }
+    .op{
+        left:60%;
+        transition: all 0.8s ease;
+
+    }
+    .notifi{
+        width:65%;
+        right:-65%;
+    }
+    .in-fo{
+        right:0 !important;
+    }
+}
